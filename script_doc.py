@@ -48,6 +48,7 @@ def main():
     to_markdown(comments, output_filename)
 
     print(f"Documentación generada en {output_filename}")
+    print("Documentación generada exitosamente!")
 
 if __name__ == "__main__":
     main()
